@@ -4,11 +4,11 @@ public struct SPM {
     public init() {
     }
     
-    func printSomething(text: String) {
+    public func printSomething(word: String) {
         print("Well, hello you there: \(text).")
     }
     
-    func printHello() {
+    public func printHello() {
         print("Hello!")
     }
 }
