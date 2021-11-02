@@ -5,7 +5,7 @@ public struct SPM {
     }
     
     public func printSomething(word: String) {
-        print("Well, hello you there: \(text).")
+        print("Well, hello you there: \(word).")
     }
     
     public func printHello() {
